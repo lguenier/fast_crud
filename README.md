@@ -1,6 +1,6 @@
 # FastCrud
 
-Fast Crud is here to help you write faster CRUD controllers and DRY in your project. It implement the basic CRUD methods on your controllers as described in (the getting started of rails documentation)[http://guides.rubyonrails.org/getting_started.html]
+Fast Crud is here to help you write faster CRUD controllers and DRY in your project. It implement the basic CRUD methods on your controllers as described in [the getting started of rails documentation](http://guides.rubyonrails.org/getting_started.html)
 
 ## Installation
 
