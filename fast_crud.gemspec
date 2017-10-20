@@ -5,7 +5,7 @@ require 'fast_crud/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "fast_crud"
-  spec.version       = '0.1.9'
+  spec.version       = '0.1.13'
   spec.authors       = ["lou"]
   spec.email         = ["louguenier@gmail.com"]
 
