@@ -50,11 +50,14 @@ module FastCrud
       end
     end
 
-    def destroy
+    def destroy(location = nil)
       @resource = model.find(params[:id])
       @resource.destroy
-
-      redirect_to eval("#{controller_name}_path")
+      if location
+        redirect_to location
+      else
+        redirect_to eval("#{controller_name}_path")
+      end
     end
 
     private
